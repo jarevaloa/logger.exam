@@ -1,0 +1,8 @@
+C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.ConsoleApplication\bin\Release\Logger.ConsoleApplication.exe.config
+C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.ConsoleApplication\bin\Release\Logger.ConsoleApplication.exe
+C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.ConsoleApplication\bin\Release\Logger.ConsoleApplication.pdb
+C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.ConsoleApplication\bin\Release\Logger.exam.dll
+C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.ConsoleApplication\bin\Release\Logger.exam.pdb
+C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.ConsoleApplication\obj\Release\Logger.ConsoleApplication.csprojResolveAssemblyReference.cache
+C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.ConsoleApplication\obj\Release\Logger.ConsoleApplication.exe
+C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.ConsoleApplication\obj\Release\Logger.ConsoleApplication.pdb

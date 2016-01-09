@@ -16,7 +16,7 @@ namespace Logger.exam
         }
         public override void Write(string message, Enums.LogType logType)
         {
-            _loggerEntry.Save(message, logType);
+            _loggerEntry.Save(string.Format("{0} {1}", DateTime.Now.ToShortDateString(), message), logType);
         }
     }
 }

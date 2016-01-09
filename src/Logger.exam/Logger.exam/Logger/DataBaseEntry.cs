@@ -18,7 +18,7 @@ namespace Logger.exam.Logger
         {
             if (string.IsNullOrEmpty(_connectionString))
                 throw new ArgumentNullException("missing connection string");
-            string query = "Insert  into  Log (Message, logType) Values (@Message, @logType) ";
+            string query = "Insert  into  dbo.Log (Message, logType) Values (@Message, @logType) ";
 
             using (SqlConnection cn = new SqlConnection(_connectionString))
             using (SqlCommand cmd = new SqlCommand(query, cn))

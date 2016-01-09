@@ -1,27 +1,16 @@
-#  Logger.exam
-
-provides functionality for loggers. You can write message in diferent providers. Also 
-you will chose type log
-
-# Type Log
-
-You will chose type log, you need three methods these are the following.
-
-  WriteError
-  WriteMessage
-  WriteWarning
-
-
-# Providers
-
-You can save in diferent entries
-
-  FileProvider
-  ConsoleProvider
-  DataBaseProvider
-
-# example
-
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Logger.exam;
+namespace Logger.ConsoleApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
             var loggerDataBase = new JobLogger();
             loggerDataBase.AddFormatProvider(new DataBaseProvider(new Logger.exam.Logger.DataBaseEntry()));
             loggerDataBase.WriteError("example write error in database");
@@ -47,4 +36,7 @@ You can save in diferent entries
 
             loggerAllProvider.WriteError("example write error in console, database and file");
             loggerAllProvider.WriteMessage("example write message console, database and file");
-            loggerAllProvider.WriteWarning("example write warning console, database and file");  
+            loggerAllProvider.WriteWarning("example write warning console, database and file");
+        }
+    }
+}

@@ -32,7 +32,7 @@ namespace Logger.exam
             Write(message, Common.Enums.LogType.Error);
         }
         public void Write(string message, Common.Enums.LogType logType) {
-            if (HasProvider())
+            if (!HasProvider())
                 return;
             foreach (var provider in providers)
             {

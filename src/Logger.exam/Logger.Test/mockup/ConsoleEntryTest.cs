@@ -1,13 +1,14 @@
-﻿using System;
+﻿using Logger.exam.Common;
+using Logger.exam.Logger;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Logger.exam.Common;
 
-namespace Logger.exam.Logger
+namespace Logger.Test.mockup
 {
-    public class ConsoleEntry : ILoggerEntry
+    public class ConsoleEntryTest:  ILoggerEntry
     {
         protected Dictionary<Enums.LogType, ConsoleColor> ConsoleColors = new Dictionary<Enums.LogType, ConsoleColor>
         {
@@ -15,13 +16,12 @@ namespace Logger.exam.Logger
             {Enums.LogType.Warning, ConsoleColor.Yellow},
             {Enums.LogType.Error, ConsoleColor.Red}
         };
-        public void Save(string message, Enums.LogType logType)
-        {
+        public ConsoleColor currentConsoleColor;
+        public string currentMessage;
+        public new void Save(string message, Enums.LogType logType) {
             if (ConsoleColors.ContainsKey(logType))
-                Console.ForegroundColor = ConsoleColors[logType];
-            Console.WriteLine(message);
-            
+                currentConsoleColor = ConsoleColors[logType];
+            currentMessage = message;
         }
-
     }
 }
