@@ -1,0 +1,10 @@
+C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.Test\bin\Release\Logger.Test.dll.config
+C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.Test\bin\Release\Logger.Test.dll
+C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.Test\bin\Release\Logger.Test.pdb
+C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.Test\bin\Release\nunit.framework.dll
+C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.Test\bin\Release\nunit.framework.xml
+C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.Test\obj\Release\Logger.Test.dll
+C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.Test\obj\Release\Logger.Test.pdb
+C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.Test\bin\Release\Logger.exam.dll
+C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.Test\bin\Release\Logger.exam.pdb
+C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.Test\obj\Release\Logger.Test.csprojResolveAssemblyReference.cache

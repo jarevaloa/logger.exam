@@ -1,0 +1,5 @@
+c:\users\jarevalo\documents\visual studio 2015\Projects\Logger.exam\Logger.exam\bin\Debug\Logger.exam.dll
+c:\users\jarevalo\documents\visual studio 2015\Projects\Logger.exam\Logger.exam\bin\Debug\Logger.exam.pdb
+c:\users\jarevalo\documents\visual studio 2015\Projects\Logger.exam\Logger.exam\obj\Debug\Logger.exam.csprojResolveAssemblyReference.cache
+c:\users\jarevalo\documents\visual studio 2015\Projects\Logger.exam\Logger.exam\obj\Debug\Logger.exam.dll
+c:\users\jarevalo\documents\visual studio 2015\Projects\Logger.exam\Logger.exam\obj\Debug\Logger.exam.pdb
