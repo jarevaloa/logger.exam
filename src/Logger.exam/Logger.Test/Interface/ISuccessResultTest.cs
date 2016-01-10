@@ -10,5 +10,6 @@ namespace Logger.Test.Interface
     public interface ISuccessResultTest
     {
         List<TestResult> GetResults();
+      
     }
 }

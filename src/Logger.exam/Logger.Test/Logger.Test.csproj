@@ -57,6 +57,7 @@
     <Compile Include="Interface\ISuccessResultTest.cs" />
     <Compile Include="mockup\BaseEntryTest.cs" />
     <Compile Include="mockup\ConsoleEntryTest.cs" />
+    <Compile Include="mockup\ConsoleEntryWithErrorTest.cs" />
     <Compile Include="mockup\DataBaseEntryTest.cs" />
     <Compile Include="mockup\FileEntryTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Logger.exam.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -32,11 +33,22 @@ namespace Logger.exam
             Write(message, Common.Enums.LogType.Error);
         }
         public void Write(string message, Common.Enums.LogType logType) {
-            if (!HasProvider())
-                throw new Exception("Invalid configuration");
-            foreach (var provider in providers)
+            try
             {
-                provider.Write(message,logType);
+                if (!HasProvider())
+                    throw new CustomExeption("Invalid configuration");
+                foreach (var provider in providers)
+                {
+                    provider.Write(message, logType);
+                }
+            }
+            catch (CustomExeption)
+            {
+                throw;
+            }
+            catch (Exception ex) {
+                // save in another entry for exception and throw custom exception 
+                throw new CustomExeption("oh no! I'm afraid about that. you can tell me after.");
             }
         }
     }

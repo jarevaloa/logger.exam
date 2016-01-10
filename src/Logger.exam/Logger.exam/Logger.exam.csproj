@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exceptions\CustomExeption.cs" />
     <Compile Include="Logger\ConsoleEntry.cs" />
     <Compile Include="Logger\DataBaseEntry.cs" />
     <Compile Include="Logger\FileEntry.cs" />

@@ -4,6 +4,7 @@ namespace Logger.Test
     using System;
     using NUnit.Framework;
     using exam.Logger;
+    using exam.Exceptions;
     [TestFixture]
     public class TestLogDestination
     {
@@ -15,7 +16,7 @@ namespace Logger.Test
 
         }
         [Test]
-        [ExpectedException(typeof(Exception), ExpectedMessage = "Invalid configuration")]
+        [ExpectedException(typeof(CustomExeption), ExpectedMessage = "Invalid configuration")]
         public void WhenNotConfigureProviderAndYouTryToWriteErrorThenExceptionInvalidConfiguration()
         {
             var logger = new JobLogger();
@@ -73,6 +74,17 @@ namespace Logger.Test
             var expectedMessage = string.Format("{0}: {1}", DateTime.Now.ToShortDateString(), message);
             Assert.AreEqual(expectedMessage, entry.GetResults()[0].Message);
             Assert.AreEqual(Logger.exam.Common.Enums.LogType.Error, entry.GetResults()[0].LogType);
+        }
+        [Test]
+        [ExpectedException(typeof(CustomExeption), ExpectedMessage = "oh no! I'm afraid about that. you can tell me after.")]
+        public void WhenHaveOneProblemWithEntryToWriteErrorThenExceptionCustomDefault()
+        {
+            var logger = new JobLogger();
+            var consoleEntry = new mockup.ConsoleEntryWithErrorTest();
+            logger.AddFormatProvider(new ConsoleProvider(consoleEntry));
+            var message = "Message";
+            logger.WriteError(message);
+
         }
     }
 }
