@@ -33,7 +33,7 @@ namespace Logger.exam
         }
         public void Write(string message, Common.Enums.LogType logType) {
             if (!HasProvider())
-                return;
+                throw new Exception("Invalid configuration");
             foreach (var provider in providers)
             {
                 provider.Write(message,logType);

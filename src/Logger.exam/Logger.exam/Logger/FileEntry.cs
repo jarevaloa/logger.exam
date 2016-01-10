@@ -22,7 +22,7 @@ namespace Logger.exam.Logger
         public void Save(string message, Enums.LogType logType)
         {
           
-            File.AppendAllText(_filePath, string.Format("{0}: {1}{2}", DateTime.Now.ToShortDateString(), message,Environment.NewLine));
+            File.AppendAllText(_filePath, string.Format("{0}{1}",  message,Environment.NewLine));
         }
 
     

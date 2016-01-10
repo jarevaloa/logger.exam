@@ -2,3 +2,4 @@ C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.exam\
 C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.exam\bin\Release\Logger.exam.pdb
 C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.exam\obj\Release\Logger.exam.dll
 C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.exam\obj\Release\Logger.exam.pdb
+C:\Users\jarevalo\Documents\Visual Studio 2015\Projects\Logger.exam\Logger.exam\obj\Release\Logger.exam.csprojResolveAssemblyReference.cache

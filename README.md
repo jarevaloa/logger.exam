@@ -48,3 +48,9 @@ You can save in diferent entries
             loggerAllProvider.WriteError("example write error in console, database and file");
             loggerAllProvider.WriteMessage("example write message console, database and file");
             loggerAllProvider.WriteWarning("example write warning console, database and file");  
+
+# Install Dependences
+
+  you should find the scripts bd in the directory script
+  you update Nunit and NUnitAdapter
+  
